@@ -4,8 +4,8 @@ class Automovil:
     self.modelo = modelo
     self.marca = marca
     self.color = color
-    self._estado = 'reposo'     #variable privada
-    self._motor = Motor(cilindros=4)
+    self._estado = 'En reposo'     #variable privada
+    self._motor = Motor(cilindros=4)  #cuando alguien haga una instancia de "Automovil", se le agregará un motor
 
   def acelerar(self, tipo='Despacio'):
     if tipo == 'rapido':

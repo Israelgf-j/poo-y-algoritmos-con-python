@@ -18,6 +18,7 @@ p1 = Punto()
 p2 = Punto(3, 4)
 
 print(p1.distancia(p2))
+print(isinstance(p1, Punto))
 
 
 
